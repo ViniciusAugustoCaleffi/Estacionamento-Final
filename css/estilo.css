@@ -1,0 +1,162 @@
+
+button {
+  height: 50px;
+  margin: 5px;
+  width: 120px;
+  background: #333;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  cursor: pointer;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-family: Consolas, Courier New, monospace;
+  border: solid #404c5d 1px;
+  font-size: 16px;
+  color: rgb(161, 161, 161);
+  -webkit-transition: 500ms;
+  transition: 500ms;
+  border-radius: 5px;
+  background: linear-gradient(145deg, #2e2d2d, #212121);
+  -webkit-box-shadow: -1px -5px 15px #41465b, 5px 5px 15px #41465b,
+    inset 5px 5px 10px #212121, inset -5px -5px 10px #212121;
+  box-shadow: -1px -5px 15px #41465b, 5px 5px 15px #41465b,
+    inset 5px 5px 10px #212121, inset -5px -5px 10px #212121;
+}
+
+button:hover {
+  -webkit-box-shadow: 1px 1px 13px #20232e, -1px -1px 13px #545b78;
+  box-shadow: 1px 1px 13px #20232e, -1px -1px 13px #545b78;
+  color: #d6d6d6;
+  -webkit-transition: 500ms;
+  transition: 500ms;
+}
+
+button:active {
+  -webkit-box-shadow: 1px 1px 13px #20232e, -1px -1px 33px #545b78;
+  box-shadow: 1px 1px 13px #20232e, -1px -1px 33px #545b78;
+  color: #d6d6d6;
+  -webkit-transition: 100ms;
+  transition: 100ms;
+}
+
+  .container{
+    text-align: center;
+    margin-top: 170px;
+    float: center
+    ;
+  }
+
+  #back-button{
+    margin-bottom: 100px;
+  }
+
+
+  h1{
+    text-align: center;
+    color:white
+  }
+
+  h2{
+    color: white;
+
+  }
+
+  body{
+   
+    background-color: rgb(92, 92, 92);
+    font-family: Arial, Helvetica, sans-serif;
+    
+  }
+  a {
+    text-decoration: none;
+    color:white
+  }
+  
+  
+  .container2 {
+    text-align: center; 
+    margin-bottom: 100px;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.button-container a {
+    display: block;
+    width: auto;
+    max-width: 300px; 
+    margin-bottom: 30px;
+}
+
+.button-container button {
+    width: 100%;
+    padding: 10px; 
+}
+
+/* Estilo geral do formulário */
+.form-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Estilo dos rótulos */
+.form-container label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+/* Estilo dos campos de entrada */
+.form-container input[type="text"],
+.form-container input[type="tel"],
+.form-container input[type="number"],
+.form-container input[type="date"] {
+  width: calc(100% - 22px); /* Ajusta para incluir o padding */
+  padding: 10px;
+  margin-bottom: 16px;
+  border: 1px solid #ddd; /* Borda leve e sutil */
+  border-radius: 50px;
+  font-size: 16px;
+  box-sizing: border-box; /* Inclui padding e border na largura total */
+  background-color: white; /* Remove o fundo branco */
+  color: #333; /* Define a cor do texto */
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Efeito ao passar o mouse sobre o campo de entrada */
+.form-container input[type="text"]:focus,
+.form-container input[type="tel"]:focus,
+.form-container input[type="number"]:focus,
+.form-container input[type="date"]:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.25);
+  outline: none; /* Remove a borda padrão do foco */
+}
+
+/* Estilo do botão de envio */
+.form-container button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.form-container button:hover {
+  background-color: #0056b3;
+}
+
+.buttoncad{
+  text-align: center;
+  margin-bottom: 10px;
+}
